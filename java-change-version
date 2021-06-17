@@ -1,0 +1,14 @@
+export JAVA_HOME="$(/usr/libexec/java_home)"
+
+alias workspace="cd /Users/XXXXX/Documents/Backup/workspaces"
+alias ll="ls -alG"
+alias ls="ls -G"
+alias showJavaVersions="ls -al /Library/Java/JavaVirtualMachines/"
+alias java14="export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-14.jdk/Contents/Home"
+alias java13="export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-13.jdk/Contents/Home"
+alias java12="export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-12.jdk/Contents/Home"
+alias java8="export JAVA_HOME=/Library/Java/JavaVirtualMachines/adoptopenjdk-8.jdk/Contents/Home"
+
+alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+alias showprofile="nano ~/.bash_profile"
+alias reloadprofile="source ~/.bash_profile"
